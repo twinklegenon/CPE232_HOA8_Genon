@@ -101,5 +101,13 @@
         - nagios-plugins
     when: ansible_distribution == "CentOS"
 
-
+  - name: install required packages
+    apt:
+      name:
+        - gcc
+        - gd
+        - gd-devel
+        - perl
+        - postfix
+      state: latest
 
