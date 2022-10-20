@@ -1,5 +1,4 @@
 #ubuntu
-#ubuntu
 - name: Installing nagios dependencies and libraries
   tags: dependecies, libraries
   apt:
